@@ -1,0 +1,24 @@
+<div class="page-header">
+  <div class="page-header__title">
+    <h1>Project Code Register</h1>
+    <div class="page-header__subtitle">Permanent register of TADS projects and their project codes</div>
+  </div>
+  <div class="page-actions">
+    <button id="pcr-export-csv" type="button" class="btn btn-secondary">Export CSV</button>
+    <button id="pcr-new-project" type="button" class="btn btn-primary">+ New Project</button>
+  </div>
+</div>
+
+<div class="search-row">
+  <input id="pcr-search" class="input search-input" type="search" placeholder="Search by code, name, customer…" />
+  <select id="pcr-status-filter" class="select">
+    <option value="">All statuses</option>
+  </select>
+  <select id="pcr-archived-filter" class="select">
+    <option value="active">Active projects</option>
+    <option value="archived">Archived projects</option>
+    <option value="all">All projects</option>
+  </select>
+</div>
+
+<div id="pcr-table-container"></div>

@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Node (only used for the local dev server / tooling, not the app itself)
+node_modules/
+npm-debug.log*
+
+# Local environment / secrets (never commit credentials)
+.env
+.env.local
+*.local
+
+# Logs
+*.log
+
+# Local backup exports a developer might drop in the project folder
+/backups/
+*.tads-backup.json

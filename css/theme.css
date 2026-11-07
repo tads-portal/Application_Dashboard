@@ -1,0 +1,106 @@
+/*
+  TADS design tokens.
+  Colors are inspired by the TADS logo: engineering blue + accent red,
+  on a clean industrial neutral background. Change values here to
+  re-theme the whole app.
+*/
+
+:root {
+  /* Brand blue (primary) */
+  --tads-blue-900: #0a3358;
+  --tads-blue-800: #0d4373;
+  --tads-blue-700: #12578f;
+  --tads-blue-600: #1a6cad;
+  --tads-blue-500: #2280c9;
+  --tads-blue-100: #e5f0f9;
+  --tads-blue-50: #f2f8fc;
+
+  /* Brand red (secondary / accent) */
+  --tads-red-800: #7a1d0e;
+  --tads-red-700: #9c2612;
+  --tads-red-600: #bf3018;
+  --tads-red-500: #d8402a;
+  --tads-red-100: #fbe9e5;
+
+  /* Neutrals */
+  --tads-gray-900: #1c2430;
+  --tads-gray-800: #2c3644;
+  --tads-gray-700: #47525f;
+  --tads-gray-600: #67737f;
+  --tads-gray-500: #8895a1;
+  --tads-gray-300: #c4cdd5;
+  --tads-gray-200: #dde3e8;
+  --tads-gray-100: #eef1f4;
+  --tads-gray-50: #f7f9fa;
+  --tads-white: #ffffff;
+
+  /* Semantic */
+  --color-bg: var(--tads-gray-50);
+  --color-surface: var(--tads-white);
+  --color-border: var(--tads-gray-200);
+  --color-text: var(--tads-gray-900);
+  --color-text-muted: var(--tads-gray-600);
+  --color-primary: var(--tads-blue-700);
+  --color-primary-hover: var(--tads-blue-800);
+  --color-primary-contrast: var(--tads-white);
+  --color-accent: var(--tads-red-600);
+  --color-accent-contrast: var(--tads-white);
+
+  --color-success: #1e7d47;
+  --color-success-bg: #e5f5ec;
+  --color-warning: #a5680a;
+  --color-warning-bg: #fbf0dd;
+  --color-danger: var(--tads-red-700);
+  --color-danger-bg: var(--tads-red-100);
+  --color-info: var(--tads-blue-700);
+  --color-info-bg: var(--tads-blue-100);
+  --color-neutral: var(--tads-gray-700);
+  --color-neutral-bg: var(--tads-gray-100);
+
+  /* Status colors (Project Status) */
+  --status-new-bg: var(--tads-gray-100);
+  --status-new-text: var(--tads-gray-700);
+  --status-active-bg: #e5f5ec;
+  --status-active-text: #1e7d47;
+  --status-onhold-bg: #fbf0dd;
+  --status-onhold-text: #a5680a;
+  --status-completed-bg: var(--tads-blue-100);
+  --status-completed-text: var(--tads-blue-800);
+  --status-cancelled-bg: var(--tads-red-100);
+  --status-cancelled-text: var(--tads-red-700);
+  --status-archived-bg: var(--tads-gray-200);
+  --status-archived-text: var(--tads-gray-700);
+
+  /* Typography */
+  --font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.8125rem;
+  --font-size-base: 0.9375rem;
+  --font-size-md: 1.0625rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-xxl: 1.875rem;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  /* Shape */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --shadow-sm: 0 1px 2px rgba(15, 30, 45, 0.08);
+  --shadow-md: 0 2px 8px rgba(15, 30, 45, 0.12);
+  --shadow-lg: 0 8px 24px rgba(15, 30, 45, 0.16);
+
+  /* Layout */
+  --header-height: 60px;
+  --sidebar-width: 240px;
+
+  --transition-fast: 120ms ease;
+}

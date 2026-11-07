@@ -1,0 +1,35 @@
+<div class="page-header">
+  <div class="page-header__title">
+    <h1>Backup &amp; Restore</h1>
+    <div class="page-header__subtitle">Full JSON backup of all local TADS data on this device</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="card card-body">
+    <h3 class="mt-0">Export Backup</h3>
+    <p class="text-muted">
+      Downloads a single JSON file containing all projects, field configuration, and application
+      settings. Keep this file somewhere safe — it is the only way to move your data to another
+      computer or recover it if this browser's storage is cleared.
+    </p>
+    <button id="backup-export-btn" type="button" class="btn btn-primary">Download Backup (JSON)</button>
+  </div>
+</div>
+
+<div class="section">
+  <div class="card card-body">
+    <h3 class="mt-0">Restore Backup</h3>
+    <p class="text-muted">
+      Restoring <strong>replaces all current local data</strong> with the contents of the backup
+      file. A safety backup of your current data is downloaded automatically before anything is
+      changed.
+    </p>
+    <div class="form-field" style="max-width: 420px;">
+      <input id="backup-file-input" class="input" type="file" accept="application/json,.json" />
+    </div>
+    <button id="backup-restore-btn" type="button" class="btn btn-danger" style="margin-top: var(--space-3);" disabled>
+      Restore from Backup
+    </button>
+  </div>
+</div>
